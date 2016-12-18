@@ -1,0 +1,35 @@
+body {
+  background: url("http://d32ffatx74qnju.cloudfront.net/themes/cleanPeppermintBlack_4fcab230/images/chalkboard.jpg");
+  font-family: "Audiowide", sans-serif; }
+
+.glyphicon-headphones {
+  margin: 0 10px; }
+
+/*HERO*/
+.jumbotron {
+  margin-top: 50px;
+  min-height: 30vh;
+  background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/MMHZBGWSHH.jpg") 0/cover;
+  background-attachment: fixed; }
+  .jumbotron small {
+    color: azure; }
+  .jumbotron h1 {
+    margin-top: 0; }
+  .jumbotron button {
+    background: navy;
+    color: white;
+    margin-bottom: 15px; }
+  .jumbotron button:hover {
+    font-weight: bold; }
+
+/*FOOTER*/
+footer {
+  background: grey;
+  padding: 15px;
+  color: silver; }
+
+@media (max-width: 800px) {
+  .navbar-fixed-top {
+    position: relative; } }
+
+/*# sourceMappingURL=style.css.map */

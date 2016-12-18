@@ -1,0 +1,55 @@
+
+//VARIABLES
+// $primary-font: 'Amarante', sans-serif;
+$primary-font: 'Audiowide', sans-serif;
+// $first-color: ;
+
+
+body {
+	background: url('http://d32ffatx74qnju.cloudfront.net/themes/cleanPeppermintBlack_4fcab230/images/chalkboard.jpg');
+	font-family: $primary-font;
+}
+
+
+//NAVBAR
+
+.glyphicon-headphones {
+	margin: 0 10px;	
+}
+
+/*HERO*/
+.jumbotron {
+	margin-top: 50px;
+	min-height: 30vh;
+	background: url('https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/MMHZBGWSHH.jpg') 0/cover;
+	background-attachment: fixed;
+	small {
+		color: azure;
+	}
+	h1{
+		margin-top: 0;	
+	}
+	button {
+		background: navy;
+		color: white;
+		margin-bottom: 15px;
+	}
+	button:hover {
+		// color: ;
+		font-weight: bold;
+	}
+}
+/*FOOTER*/
+footer {
+	background: grey;
+	padding: 15px;
+	color: silver;
+}
+
+//MEDIA QUERRIES
+
+@media (max-width: 800px) {
+	.navbar-fixed-top {
+		position: relative;
+	}
+}
