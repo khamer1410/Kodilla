@@ -1,0 +1,29 @@
+{
+  "name": "musicshop",
+  "version": "1.0.0",
+  "description": "Bootstrap playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khamer1410/Kodilla.git"
+  },
+  "keywords": [
+    "music",
+    "shop"
+  ],
+  "author": "Hamer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khamer1410/Kodilla/issues"
+  },
+  "homepage": "https://github.com/khamer1410/Kodilla#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
