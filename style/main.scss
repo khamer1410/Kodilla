@@ -25,6 +25,15 @@ body {
 	border-radius: 15px;
 }
 
+h2, h1 {
+	color: $second-color;
+}
+
+.navbar-inverse .navbar-brand {
+	@extend h2;
+    text-shadow: 4px 4px 2px black;
+}
+
 //NAVBAR
 
 .glyphicon-headphones {
@@ -32,35 +41,48 @@ body {
 }
 
 /*HERO*/
-.jumbotron {
-	margin-top: 50px;
-	min-height: 30vh;
-	background: url('https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/MMHZBGWSHH.jpg') 0/cover;
-	background-attachment: fixed;
-	
-	small {
-		color: azure;
-	}
-	h1{
-		margin-top: 0;	
-	}
-	.btn-jumbo {
-		color: white;
-		margin-bottom: 15px;
-	}
-	button:hover {
-		// color: ;
-		font-weight: bold;
-	}
+
+.header-main {
+	margin: 50px auto 20px auto;
+	text-align: center;
 }
 
-// GALLERY
-.gallery img {
-	height: 200px;
+.carousel-main {
+	padding-top: 0px;
 }
 
-//CAROUSEL
+.carousel-inner > .item > img {
+	height: 80vh;
+	margin: 0 auto;
+}
 
+// .jumbotron {
+// 	margin-top: 50px;
+// 	min-height: 30vh;
+// 	background: url('https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/MMHZBGWSHH.jpg') 0/cover;
+// 	background-attachment: fixed;
+
+// 	small {
+// 		color: azure;
+// 	}
+// 	h1{
+// 		margin-top: 0;	
+// 	}
+// 	.btn-jumbo {
+// 		color: white;
+// 		margin-bottom: 15px;
+// 	}
+// 	button:hover {
+// 		// color: ;
+// 		font-weight: bold;
+// 	}
+// }
+
+
+//TABLE
+.table-hover>tbody>tr:hover {
+	background-color: #5bc0de;
+}
 
 //FOOTER
 footer {

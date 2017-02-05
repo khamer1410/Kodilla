@@ -10,28 +10,29 @@ body {
   background-color: #f5f5f5;
   border-radius: 15px; }
 
+h2, .navbar-inverse .navbar-brand, h1 {
+  color: #4da44d; }
+
+.navbar-inverse .navbar-brand {
+  text-shadow: 4px 4px 2px black; }
+
 .glyphicon-headphones {
   margin: 0 10px; }
 
 /*HERO*/
-.jumbotron {
-  margin-top: 50px;
-  min-height: 30vh;
-  background: url("https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/MMHZBGWSHH.jpg") 0/cover;
-  background-attachment: fixed; }
-  .jumbotron small {
-    color: azure; }
-  .jumbotron h1 {
-    margin-top: 0; }
-  .jumbotron .btn-jumbo {
-    background: navy;
-    color: white;
-    margin-bottom: 15px; }
-  .jumbotron button:hover {
-    font-weight: bold; }
+.header-main {
+  margin: 50px auto 20px auto;
+  text-align: center; }
 
-.gallery img {
-  height: 200px; }
+.carousel-main {
+  padding-top: 0px; }
+
+.carousel-inner > .item > img {
+  height: 80vh;
+  margin: 0 auto; }
+
+.table-hover > tbody > tr:hover {
+  background-color: #5bc0de; }
 
 footer {
   background: grey;
