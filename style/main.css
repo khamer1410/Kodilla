@@ -1,3 +1,5 @@
+@import url("http://fonts.googleapis.com/css?family=Amarante&subset=latin,latin-ext");
+@import url("http://fonts.googleapis.com/css?family=Audiowide&subset=latin,latin-ext");
 body {
   background: url("http://d32ffatx74qnju.cloudfront.net/themes/cleanPeppermintBlack_4fcab230/images/chalkboard.jpg");
   font-family: "Audiowide", sans-serif; }
@@ -28,8 +30,11 @@ h2, .navbar-inverse .navbar-brand, h1 {
   padding-top: 0px; }
 
 .carousel-inner > .item > img {
-  height: 80vh;
+  height: calc(100vh - 170px);
   margin: 0 auto; }
+
+.gallery img {
+  height: 180px; }
 
 .table-hover > tbody > tr:hover {
   background-color: #5bc0de; }
@@ -41,6 +46,14 @@ footer {
 
 @media (max-width: 800px) {
   .navbar-fixed-top {
-    position: relative; } }
+    position: relative; }
+  .nav li {
+    display: block;
+    text-align: center; }
+  .form-group {
+    display: inline-block; }
+  .gallery .div {
+    display: block;
+    height: auto; } }
 
 /*# sourceMappingURL=main.css.map */

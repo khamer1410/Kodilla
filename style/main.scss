@@ -1,3 +1,7 @@
+//FONTS
+@import url('http://fonts.googleapis.com/css?family=Amarante&subset=latin,latin-ext');
+@import url('http://fonts.googleapis.com/css?family=Audiowide&subset=latin,latin-ext');
+
 
 //VARIABLES
 // $primary-font: 'Amarante', sans-serif;
@@ -6,8 +10,6 @@ $background-color: #f5f5f5;
 
 // $first-color: ;
 $second-color: #4da44d;
-
-
 
 body {
 	background: url('http://d32ffatx74qnju.cloudfront.net/themes/cleanPeppermintBlack_4fcab230/images/chalkboard.jpg');
@@ -52,32 +54,15 @@ h2, h1 {
 }
 
 .carousel-inner > .item > img {
-	height: 80vh;
+	height: calc(100vh - 170px);
 	margin: 0 auto;
 }
 
-// .jumbotron {
-// 	margin-top: 50px;
-// 	min-height: 30vh;
-// 	background: url('https://d2lm6fxwu08ot6.cloudfront.net/img-thumbs/960w/MMHZBGWSHH.jpg') 0/cover;
-// 	background-attachment: fixed;
+//GALLERY
 
-// 	small {
-// 		color: azure;
-// 	}
-// 	h1{
-// 		margin-top: 0;	
-// 	}
-// 	.btn-jumbo {
-// 		color: white;
-// 		margin-bottom: 15px;
-// 	}
-// 	button:hover {
-// 		// color: ;
-// 		font-weight: bold;
-// 	}
-// }
-
+.gallery img {
+	height: 180px;
+}
 
 //TABLE
 .table-hover>tbody>tr:hover {
@@ -94,7 +79,26 @@ footer {
 //MEDIA QUERRIES
 
 @media (max-width: 800px) {
+	//MENU
 	.navbar-fixed-top {
 		position: relative;
+	}
+
+	.nav li {
+		display: block;
+		text-align: center;
+	}
+
+	.form-group {
+		display: inline-block;
+	}
+	
+	//GALLERY
+	.gallery .row{
+		
+	}
+	.gallery .div {
+		display: block;
+		height: auto;
 	}
 }
