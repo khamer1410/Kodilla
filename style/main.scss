@@ -59,9 +59,15 @@ h2, h1 {
 }
 
 //GALLERY
+.gallery .row > div {
+	padding: 5px;
+}
 
 .gallery img {
-	height: 180px;
+	opacity: 0.8;
+}
+.gallery img:hover {
+	opacity: 1;
 }
 
 //TABLE
@@ -77,8 +83,13 @@ footer {
 }
 
 //MEDIA QUERRIES
+@media (max-width: 960px) and (min-width: 770px) {
+	.header-main {
+		margin-top: 110px;
+	}
+}
 
-@media (max-width: 800px) {
+@media (max-width: 770px) {
 	//MENU
 	.navbar-fixed-top {
 		position: relative;
@@ -92,13 +103,9 @@ footer {
 	.form-group {
 		display: inline-block;
 	}
+
+	.search {
+		display: none;
+	}
 	
-	//GALLERY
-	.gallery .row{
-		
-	}
-	.gallery .div {
-		display: block;
-		height: auto;
-	}
 }

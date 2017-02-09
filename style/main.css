@@ -33,8 +33,14 @@ h2, .navbar-inverse .navbar-brand, h1 {
   height: calc(100vh - 170px);
   margin: 0 auto; }
 
+.gallery .row > div {
+  padding: 5px; }
+
 .gallery img {
-  height: 180px; }
+  opacity: 0.8; }
+
+.gallery img:hover {
+  opacity: 1; }
 
 .table-hover > tbody > tr:hover {
   background-color: #5bc0de; }
@@ -44,7 +50,11 @@ footer {
   padding: 15px;
   color: silver; }
 
-@media (max-width: 800px) {
+@media (max-width: 960px) and (min-width: 770px) {
+  .header-main {
+    margin-top: 110px; } }
+
+@media (max-width: 770px) {
   .navbar-fixed-top {
     position: relative; }
   .nav li {
@@ -52,8 +62,7 @@ footer {
     text-align: center; }
   .form-group {
     display: inline-block; }
-  .gallery .div {
-    display: block;
-    height: auto; } }
+  .search {
+    display: none; } }
 
 /*# sourceMappingURL=main.css.map */
